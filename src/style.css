@@ -1,0 +1,23 @@
+.barChart{
+  border: 1px solid #DEDEDE;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.dotPlot{
+  border: 1px solid #DEDEDE;
+  margin: auto;
+  width: 60%;
+}
+
+h2{ 
+  text-align: center;
+  margin-left: 30px;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+

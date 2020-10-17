@@ -883,7 +883,7 @@ var fetchData = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return fetch("https://cors-anywhere.herokuapp.com/https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev").then(function (res) {
+            return fetch("https://mbbbuout42.execute-api.us-east-2.amazonaws.com/datas").then(function (res) {
               return json = res.json();
             });
 
@@ -1085,7 +1085,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50289" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50619" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

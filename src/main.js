@@ -2,7 +2,7 @@ const regeneratorRuntime = require("regenerator-runtime");
 
 const fetchData = async () => {
   let json
-  await fetch("https://cors-anywhere.herokuapp.com/https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev")
+  await fetch("https://mbbbuout42.execute-api.us-east-2.amazonaws.com/datas")
     .then(res => json = res.json())
   return json
 }

@@ -1,7 +1,7 @@
 # d3js
-##D3 project within nodejs server
+## D3 project within nodejs server
 
-##Setup
+## Setup
 ```console
 npm install
 npm start
